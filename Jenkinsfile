@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         nodejs 'nodejs-lts'
-        DockerTool 'docker'
+        docker 'docker'
         
     }
 
